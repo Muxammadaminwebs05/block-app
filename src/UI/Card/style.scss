@@ -1,0 +1,37 @@
+.card:hover{
+     transform: scale(1.1);
+     transition: 0.7s ease;
+}
+.card{
+    padding: 25px 25px 45px 25px;
+    border: 1px solid rgba(149, 98, 225, 1);
+    border-radius: 15px;
+    max-width: 364px;
+    width: 100%;
+    h3{
+        font-family: Space Grotesk;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        max-width: 271px;
+        width: 100%;
+    }
+    p{
+        font-family: Space Grotesk;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        max-width: 309px;
+        width: 100%;
+    }
+    a{
+        font-family: Space Grotesk;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;  
+        color: rgba(0, 0, 0, 1);
+
+    }
+}

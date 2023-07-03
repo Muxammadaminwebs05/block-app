@@ -1,0 +1,110 @@
+
+.mySwiper{
+    max-width: 1276px;
+    width: 100%;
+    margin: auto;
+}
+.swiper-slide{
+    max-width: 1276px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+}
+.slide{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    border: 1px solid grey;
+    max-width: 370px ;
+    width: 100% ;
+    overflow: hidden;
+}
+.slide img{
+    width: 100%;
+}
+
+.swiper-pagination-bullet{
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    background: rgba(83, 0, 206, 1);
+    
+}
+.com-title{
+    margin: 100px 0px 64px 0px;
+}
+
+.com-bg{
+     position: absolute;
+     z-index: -9999;
+     right: 0;
+}
+@media (max-width:1200px) {
+    .mySwiper{
+        max-width: 1176px ;
+        width: 100%;
+    }
+    .swiper-slide{
+           max-width: 1176px ;
+           width: 100%;
+           
+    }
+    .slide{
+        max-width: 290px ;
+        width: 100% ;
+    //    padding: 45px 80px;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+@media (max-width:920px) {
+     .mySwiper {
+         max-width: 796px ;
+         width: 100%;
+     }
+
+     .swiper-slide {
+         max-width: 796px ;
+         width: 100%;
+
+     }
+   
+     .slide {
+         max-width: 240px ;
+         width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+         img {
+             width: 100%;
+         }
+     }
+}
+
+@media (max-width:760px) {
+    .mySwiper {
+        max-width: 730px;
+        width: 100%;
+    }
+
+    .swiper-slide {
+        max-width: 730px;
+        width: 100%;
+
+    }
+
+    .slide {
+        max-width: 210px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}

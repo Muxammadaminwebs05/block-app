@@ -1,0 +1,30 @@
+footer {
+    background: rgba(0, 0, 0, 1) !important;
+}
+
+.footer {
+    padding: 100px 0px;
+    align-items: center;
+
+    &_right-elements {
+        width: 200px;
+
+
+
+        &_footer-link {
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            i {
+                color: rgba(83, 0, 206, 1);
+
+            }
+        }
+    }
+}

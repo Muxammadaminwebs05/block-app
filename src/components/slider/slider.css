@@ -1,0 +1,37 @@
+ .big-slider{
+  margin-top: 100px;
+ }
+ .carousel-inner{
+    max-width: 100% !important;
+    width: 100%;
+    height: 550px;
+}
+.carousel {
+    max-width: 90% !important;
+    border:  1px solid grey;
+    margin:50px  auto;
+    height: 550px !important;
+    border-radius: 50px;
+}
+ .carousel img{
+    width: 100%;
+    height: 100%;
+
+image-orientation: initial;
+} 
+
+.carousel-indicators button{
+   width: 50px !important;
+   height: 2px !important;
+   border-radius: 10px !important;
+   background: rgba(83, 0, 206, 1) !important;
+}
+#inteviyu{
+  position: relative;
+}
+.interviyu-bg{
+    position: absolute;
+    z-index: -9999;
+    /* top: 20%; */
+    left: 0;
+}

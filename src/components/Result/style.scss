@@ -1,0 +1,35 @@
+.result{
+    margin: 106px auto 24px auto;
+    max-width: 950px;
+    width: 100%;
+    display: flex;
+}
+@media (max-width: 920px) {
+    .resCard {
+        h3 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 90px;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .resCard {
+        h3 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 70px;
+        }
+    }
+}
+@media (max-width: 567px) {
+    .result{
+        flex-direction: column;
+        align-items: center;
+    }
+}

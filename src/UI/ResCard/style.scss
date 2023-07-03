@@ -1,0 +1,28 @@
+.resCard:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.resCard{
+    max-width: 364px;
+    width: 100%;
+    h3{
+        font-family: Space Grotesk;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+    }
+    p{
+        font-family: Space Grotesk;
+        font-size: 120px;
+        font-weight: 700;
+        line-height: 153px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(83, 0, 206, 1);
+        margin-top: 8px;
+    }
+}
+

@@ -3,7 +3,7 @@ import "./style.scss";
 import foterLogo from "../../assets/images/footer-logo.png"
 const index = () => {
    return (
-     <footer>
+     <footer> 
        <div className="container">
          <div className="footer d-flex justify-content-between">
            <div className="footer_left-elements">

@@ -2,7 +2,7 @@ import React from 'react';
 import "./style.scss";
 import foterLogo from "../../assets/images/footer-logo.png"
 const index = () => {
-   return (  
+   return (   
      <footer> 
        <div className="container">
          <div className="footer d-flex justify-content-between">

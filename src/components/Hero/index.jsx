@@ -3,7 +3,7 @@ import "./style.scss";
 import heroimg from "../../assets/images/rasm.png";
 const index = () => {
   return (
-    <>
+    <> 
       <section>
         <div className="container">
           <div className="hero">
